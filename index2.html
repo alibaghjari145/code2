@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BootStrap 4</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/customCss.css">
+
+</head>
+
+<body>
+    <!-- creating a good navbar -->
+    <nav class="navbar badge-dark navbar-dark navbar-expand-sm">
+        <div class="container">
+
+            <a href="#" class="navbar-brand">ali baghjari</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myToggleNav"
+                aria-controls="myToggleNav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="myToggleNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home</a>
+                    <a class="nav-item nav-link" href="#">Login</a>
+                    <a class="nav-item nav-link" href="#">about Us</a>
+                    <a class="nav-item nav-link" href="#">learn</a>
+                    <a class="nav-item nav-link" href="#">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- creating a login form -->
+
+    <div class="container">
+        <form class="form-group">
+            <h2>Owner Info</h2>
+
+            <div class="form-group">
+                <label for="" class="form-control-lable">Name</label>
+                <input type="text" placeholder="Name ..." class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="" class="form-control-lable">Email</label>
+                <input type="email" placeholder="Email ..." class="form-control">
+                <p class="form-text text-monospace">Please Enter Valid Email</p>
+            </div>
+            <div class="form-group">
+                <label for="" class="form-control-lable">Pet</label>
+                <select name="" id="" class="form-control">
+                    <option value="">Dog</option>
+                    <option value="">Cat</option>
+                </select>
+            </div>
+            <input type="submit" class="btn btn-success" value="Save">
+        </form>
+
+    </div>
+
+
+</body>
+
+<script src="js/jquery-3.3.1.min.js" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</html>
